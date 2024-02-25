@@ -12,20 +12,20 @@ app.use(express.static(path.join(__dirname,"public")));
 
 let posts = [{
     id:uuidv4(),
-    username:"anuja",
+    username:"vinay",
+    content:"I love to play kabaddi"
+},{
+    id:uuidv4(),
+    username:"aakash",
     content:"I love Coding"
 },{
     id:uuidv4(),
-    username:"anuj",
-    content:"I love Coding too"
-},{
-    id:uuidv4(),
     username:"anushaka",
-    content:"me too"
+    content:"i like to play cricket"
 },{
     id:uuidv4(),
-    username:"anu",
-    content:"I also"
+    username:"mandip",
+    content:"my hobby is reading book"
 }];
 app.get("/posts",(req,res)=>{
     res.render("index.ejs",{posts});
