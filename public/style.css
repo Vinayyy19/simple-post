@@ -1,0 +1,43 @@
+.headingLine{
+    color: maroon;
+    display: flex;
+    justify-content: center;
+}
+.post{
+    background-color: blanchedalmond;
+    /* padding: 0px 5px 5px 5px; */
+    margin: 0px 50px 50px 50px;
+}
+.user{
+    font-style: italic;
+    display: inline;
+}
+a{
+    text-decoration: none;
+    font-style: italic;
+}
+.details{
+    color: black;
+    width: fit-content;
+}
+.edit{
+    color: red;
+} 
+button{
+    display: inline;
+    justify-items: right;
+}
+form{
+    display: inline;
+}
+.newPost{
+    display: flex;
+    justify-content: right;
+    margin-right: 20px;
+    /* width: fit-content; */
+}
+.editPost{
+    margin-top: 5%;
+    text-align: center;
+    background-color: blanchedalmond;
+}
